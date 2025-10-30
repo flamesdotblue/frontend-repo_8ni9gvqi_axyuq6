@@ -10,20 +10,21 @@ const Navbar = () => {
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-tr from-indigo-600 to-violet-500 text-white">
               <Rocket size={18} />
             </span>
-            <span className="text-lg">VibeKit</span>
+            <span className="text-lg">Pavan Kumar PS</span>
           </a>
 
-          <nav className="hidden md:flex items-center gap-8 text-sm text-gray-600">
-            <a href="#features" className="hover:text-gray-900 transition">Features</a>
-            <a href="#showcase" className="hover:text-gray-900 transition">Showcase</a>
-            <a href="#pricing" className="hover:text-gray-900 transition">Pricing</a>
+          <nav className="hidden md:flex items-center gap-8 text-sm text-gray-700">
+            <a href="#about" className="hover:text-gray-900 transition">About</a>
+            <a href="#experience" className="hover:text-gray-900 transition">Experience</a>
+            <a href="#skills" className="hover:text-gray-900 transition">Skills</a>
+            <a href="#projects" className="hover:text-gray-900 transition">Projects</a>
+            <a href="#contact" className="hover:text-gray-900 transition">Contact</a>
           </nav>
 
           <div className="flex items-center gap-3">
-            <button className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900">Sign in</button>
-            <button className="px-4 py-2 text-sm font-medium rounded-md bg-gray-900 text-white hover:bg-gray-800">
-              Get Started
-            </button>
+            <a href="mailto:pavan.kumar@nerdsandgeeks.in" className="px-4 py-2 text-sm font-medium rounded-md bg-gray-900 text-white hover:bg-gray-800">
+              Contact
+            </a>
           </div>
         </div>
       </div>
